@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Radio JOSS musica online</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/music.png" type="image/x-icon">
+    <meta name="description" content="Hola, bienvenido a la vista de Radio JOSS modo movil, aquí tendras mas estabilidad en modo reproductor... Creado por JOSPROX MX | JOSPROX Internacional"/>
+    <meta name="keywords" content="JOSPROX Plantillas, Radio, Radio JOSS, Trabajo, HTML, CSS, JOSPROX"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="player">
+    <div class="player__controls">
+      <div class="player__btn player__btn--small red" id="previous">
+        <a href="index"><i class="fas fa-arrow-left"></i></a>
+      </div>
+      <h5 class="player__title">RADIO JOSS</h5>
+      <div class="player__btn player__btn--small home" id="icon-menu">
+        <a href="https://ray.josprox.com.mx/"><i class="fas fa-home"></i></a>
+      </div>
+    </div>
+    <div class="player__album">
+      <img src="img/music.png" alt="Album Cover" class="player__img" loading="lazy" />
+    </div>
+
+    <h2 class="player__artist">Disfruta</h2>
+    <h3 class="player__song">Lo mejor de la estación</h3>
+
+    <input type="range" value="75" min="0" class="player__level" id="range" />
+    <div class="audio-duration">
+      <div class="start">00:00</div>
+      <div class="end">Ilimitado</div>
+    </div>
+
+    <audio class="player__audio" controls id="audio">
+      <source src="http://stream.zeno.fm/t4na28u1yg0uv" type="audio/mpeg" />
+    </audio>
+
+    <div class="player__controls">
+      <div class="player__btn player__btn--medium naranja" id="backward">
+        <a href="https://paypal.me/MelchorEstrada"><i class="fab fa-paypal"></i></a>
+      </div>
+
+      <div class="player__btn player__btn--medium blue play" id="play">
+        <i class="fas fa-play play-btn "></i>
+        <i class="fas fa-pause pause-btn hide"></i>
+      </div>
+
+      <div class="player__btn player__btn--medium verdeoso" id="forward">
+        <a href="https://josprox.com.mx/opiniones/"><i class="fas fa-file-contract"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.min.js'></script><script  src="./js/index.js"></script>
+
+</body>
+</html>
