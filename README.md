@@ -8,7 +8,7 @@ Tratamos de usar como base bootstrap, fácil uso y mejor rendimiento, en su cone
 Los códigos son abiertos, puedes ocuparlos pero no se permite su distribución con su supuesta adquisición, no se les pide mencionar ni Bootstrap ni a JOSPROX Responsivo. Puedes ayudar dando tu aportación enviando los códigos con un ejemplo de uso al correo “joss@int.josprox.com”, Recuerda que todos los códigos deben ser responsivos.
 Visita Bootstrap codes para poder crear mas cosas.
 
-Copyright (c) 2021 de JOSPROX MX/ JOSPROX Internacional (https://josprox.com/  ,  https://josprox.com.mx/) Tales del presente adquisidor (José Luis Melchor Estrada)
+- 📫 Copyright (c) 2021 de JOSPROX MX/ JOSPROX Internacional (https://josprox.com/  ,  https://josprox.com.mx/) Tales del presente adquisidor (José Luis Melchor Estrada)
 
 Por la presente se otorga permiso, sin cargo, a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para operar con el Software sin restricciones, incluidos, entre otros, los derechos de uso, copia, modificación, fusión , publicar, distribuir, sublicenciar y / o vender copias del Software, y permitir que las personas a las que se les proporcione el Software lo hagan, sujeto a las siguientes condiciones:
 
