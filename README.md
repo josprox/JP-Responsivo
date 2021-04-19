@@ -10,6 +10,7 @@ Visita Bootstrap codes para poder crear mas cosas.
 
 Puedes ver la versión "demo" en https://ray.josprox.com.mx/
 
+Ahora tambien puedes usar nuestro codigo de manera digital, usando el siguiente codigo en tu head <code> link rel="stylesheet" href="https://ray.josprox.com.mx/css/index.css" </code> y si vas a usarlo recuerda que puedes tambien combinar nuestro Frame con los siguientes frames ya antes usados, "Bootstrap" y "https://videojs.com/"
 - 📫 Copyright (c) 2021 de JOSPROX MX/ JOSPROX Internacional (https://josprox.com/  ,  https://josprox.com.mx/) Tales del presente adquisidor (José Luis Melchor Estrada)
 
 Por la presente se otorga permiso, sin cargo, a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para operar con el Software sin restricciones, incluidos, entre otros, los derechos de uso, copia, modificación, fusión , publicar, distribuir, sublicenciar y / o vender copias del Software, y permitir que las personas a las que se les proporcione el Software lo hagan, sujeto a las siguientes condiciones:
