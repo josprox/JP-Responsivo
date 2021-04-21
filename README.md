@@ -3,7 +3,7 @@ JOSPROX Responsivo es una librería la cual permite hacer nuevos diseños con HT
 
 Nuestro css quiere dar muchísimas posibilidades pero a su vez, pensar en mas diseños con ya cosas hechas o que podemos crear.
 
-Tratamos de usar como base bootstrap, fácil uso y mejor rendimiento, en su conexión NO PERMITIMOS QUE SEA EN LINEA, así podríamos cambiar códigos.
+Tratamos de usar como base bootstrap, fácil uso y mejor rendimiento, en su conexión NO PERMITIMOS QUE SEA EN LINEA, así podríamos cambiar códigos /*Desde el día 18/04/21 esto cambió pero se borraron atributos en conflicto como la etiqueta body */.
 
 Los códigos son abiertos, puedes ocuparlos pero no se permite su distribución con su supuesta adquisición, no se les pide mencionar ni Bootstrap ni a JOSPROX Responsivo. Puedes ayudar dando tu aportación enviando los códigos con un ejemplo de uso al correo “joss@int.josprox.com”, Recuerda que todos los códigos deben ser responsivos.
 Visita Bootstrap codes para poder crear mas cosas.
