@@ -1,4 +1,8 @@
 # Radio-JOSS-JP-Responsivo
+#Actualización 05/05/21
+
+Dejamos de dar soporte a la versión ray, ahora para poder usar nuestro css necesitas agregar <code> link rel="stylesheet" href="https://dev.josprox.com/css/index.min.css" </code> como se explica a continuación
+
 JOSPROX Responsivo es una librería la cual permite hacer nuevos diseños con HTML 5, se ha tratado en este proyecto que los sitios puedan mejorarse con diseño de manera fácil, entre ello CSS y poco uso de javascript.
 
 Nuestro css quiere dar muchísimas posibilidades pero a su vez, pensar en mas diseños con ya cosas hechas o que podemos crear.
@@ -10,7 +14,7 @@ Visita Bootstrap codes para poder crear mas cosas.
 
 Puedes ver la versión "demo" en https://ray.josprox.com.mx/
 
-Ahora tambien puedes usar nuestro codigo de manera digital, usando el siguiente codigo en tu head <code> link rel="stylesheet" href="https://ray.josprox.com.mx/css/index.min.css" </code> y si vas a usarlo recuerda que puedes tambien combinar nuestro Frame con los siguientes frames ya antes usados, "Bootstrap" y "https://videojs.com/"
+Ahora tambien puedes usar nuestro codigo de manera digital, usando el siguiente codigo en tu head <code> link rel="stylesheet" href="https://dev.josprox.com/css/index.min.css" </code> y si vas a usarlo recuerda que puedes tambien combinar nuestro Frame con los siguientes frames ya antes usados, "Bootstrap" y "https://videojs.com/"
 - 📫 Copyright (c) 2021 de JOSPROX MX/ JOSPROX Internacional (https://josprox.com/  ,  https://josprox.com.mx/) Tales del presente adquisidor (José Luis Melchor Estrada).
 - - Los códigos son abiertos, puedes ocuparlos pero no se permite su distribución con su supuesta adquisición, de hacerlo se mandará una demanda o actividad nula para esta persona, siempre será para aclarar que el codigo es de José Luis Melchor Estrada pero sin restricciones como se mencionará más adelante.
 - Puedes ayudar dando tu aportación enviando los códigos con un ejemplo de uso al correo “joss@int.josprox.com”.
