@@ -1,0 +1,510 @@
+/*Nuevo estilo, ahora ya puedes programar con los estilos de google fonts desde css*/ /*Agregado el día 18/04/21*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body{
+  background: url(../img/Kota-Kinabalu-City-Mosque-Likas-Bay-Malaysia-morning_1920x1080.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+:root{
+  --roboto: 'Roboto', sans-serif;
+  --train : 'Train One', cursive;
+  --redressed: 'Redressed', cursive;
+  --Playfair: 'Playfair Display', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--roboto);
+}
+/*Scroll*/
+*::-webkit-scrollbar{
+  width: 12px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb{
+  background: #63195e;
+  border-radius: 8px;
+}
+
+.train{
+    font-family: var(--train);
+}
+
+p{
+    font-family: var(--redressed);
+    font-size: 21px;
+}
+
+/*Menú*/
+header{
+    width: 100%;
+    background: #333;
+    height: 100px;
+}
+
+.content{
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 0 7% 0 0;
+}
+
+.logo img{
+    height: 95px;
+    margin: 5px 0;
+}
+.RM{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 0 7% 0 0;
+}
+
+.RM img{
+    height: 95px;
+    margin: 5px 0;
+}
+
+.menu{
+    display: flex;
+    align-self: center;
+    flex-grow: 4;
+    flex-basis: 60%;
+}
+
+.menu a{
+    padding: 10px 30px;
+    text-align: center;
+    justify-content: flex-end;
+    color: aqua;
+    border-radius: 50px;
+    /*Posible a usar para divisores*/
+    flex-grow: 1;
+    
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.menu a:hover{
+    background: green;
+    color: antiquewhite;
+}
+
+#hamburguesa{
+    display: none;
+}
+
+.menuresponsivo{
+    display: none;
+}
+/*Cierre del menú*/
+
+/*Extra*/
+.aqua{
+    color: aqua;
+}
+.marcoinvisible{
+    border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    backdrop-filter: brightness(60%);
+}
+.marcoinvisible2{
+    border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    backdrop-filter: brightness(60%);
+    -webkit-transition: all 1s;
+    color: blanchedalmond;
+}
+.marcoinvisible2:hover{
+    background: #fff;
+    color: blueviolet;
+}
+
+.content1{
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.info{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 0 7% 0 0;
+    -webkit-transition: all 1s;
+    color: aqua;
+    /*Prueba*/
+    border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    backdrop-filter: brightness(60%);
+    display: flex;
+}
+.info:hover{
+    background: #aaf2aa;
+    color: crimson;
+}
+
+.info img{
+    height: 95px;
+    margin: 5px 0;
+}
+
+.content2{
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+    flex-basis: 60%;
+    /*Analizar*/
+    padding: 10px 30px;
+    text-align: center;
+    justify-content: flex-end;
+    color: aqua;
+    border-radius: 50px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    
+    border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    backdrop-filter: brightness(60%);
+}
+.content2:hover{
+    background: #dfe3a3;
+    color: #4a32e6;
+}
+.content3{
+    align-self: center;
+    flex-grow: 1;
+    flex-basis: 60%;
+    /*Analizar*/
+    padding: 10px 30px;
+    text-align: center;
+    justify-content: flex-end;
+    color: aqua;
+    border-radius: 50px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    
+    border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    backdrop-filter: brightness(60%);
+}
+.content3:hover{
+    background: #fff;
+    color: #4a32e6;
+}
+
+.logo{
+    width: 60px;
+    height: auto;
+}
+
+.carrusel{
+    width: auto;
+    height: auto;
+    margin: 5px 0;
+}
+
+.tarjetas{
+    margin: 34px auto;
+}
+
+.justify{
+    margin: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: auto;
+}
+.acon{
+    background: #28807e;
+    color: aliceblue;
+    margin: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: auto;
+    -webkit-transition: all 1s;
+}
+
+.acon:hover{
+    background: #63195e;
+    color: azure;
+}
+
+.espacio{
+    margin: 12px;
+    margin-top: 12px;
+}
+
+button.f{
+    color: #fff;
+}
+
+.negro{
+    color: black;
+}
+.fondo-aqua{
+    background: aqua;
+}
+.link-light:hover{
+    color: aqua;
+}
+
+/* Los siguientes codigos son de la autoria bootstrap */
+/* carrusel custom
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: var(--Playfair), Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--Playfair);
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+/*Video*/
+
+.fm-video{
+  width: 100%;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .5) ;
+}
+
+.tamaño{
+  width: 300px;
+  height: auto;
+}
+
+/*Agregado el día 18/04/21 proximamente mas código*/
+.tarjeta-neo{
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+             text-align: center;
+}
+
+.dayan:hover{
+  background-color: #4a32e6;
+}
+
+.invisible{
+  visibility: hidden;
+}
