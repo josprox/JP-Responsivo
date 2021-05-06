@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/PicsArt_02-03-07.35.11-1024x1024.png" type="image/x-icon">
+</head>
+<body>
+    <!--Inicio del nav-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/PicsArt_02-03-07.35.11-1024x1024.png" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../ray/">Ray version old</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Otros sitios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://josprox.com/">JOSPROX MX</a></li>
+                  <li><a class="dropdown-item" href="https://josprox.com.mx/">JOSPROX INT</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="http://twitter.josprox.com.mx/">Twitter</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <a class="navbar-brand" href="https://dev.josprox.com"><img src="img/PicsArt_02-03-07.35.11-1024x1024.png" class="logo">JP Responsivo</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--Cierre-->
+    <center><h1 class="content3">Utilidades de práctica</h1></center>
+    <!--Navegación-->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+          <div class="content3">
+           <img src="img/LogoCetis.png" class="logo" alt="Jose Luis Melchor Estrada">
+           <h2>Formulario</h2>
+           <p>Bienvenido, aquí encontrarás una forma de contactarnos de la manera directa, favor de solo usarlo para situaciones necesarias.</p>
+           <p> &#169 JOSPROX MX / Internacional</p>
+           
+       </div>
+         </div>
+         <br><br>
+          <div class="col-sm-8">
+              
+            <!--Formulario1-->
+    <div>
+        <form method="post" action="correo.php">
+            <div class="input-group">
+                <span class="input-group-text">Nombre y apellidos</span>
+                <input type="text" aria-label="First name" class="form-control" required="" name="nombre">
+                <input type="text" aria-label="Last name" class="form-control" required="" name="apellido">
+              </div>
+            <div class="mb-3">
+              <label class="form-label">Correo electronico</label>
+              <input class="form-control" required="" name="correo">
+              <div class="form-text text-azul">Lo usaremos para luego contactarte.</div>
+            </div>
+
+            <div class="input-group mb-3">
+            <span class="input-group-text">Otro correo</span>
+             <input type="text" class="form-control" placeholder="josprox" aria-label="Username" name="correo1">
+             <span class="input-group-text">@</span>
+              <input type="text" class="form-control" placeholder="gmail.com" aria-label="Server" name="correo2">
+            </div>
+
+
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01" required="">Tema principal</label>
+                <select class="form-select" id="inputGroupSelect01" name="principal">
+                  <option selected>Ninguno</option>
+                  <option value="suscripciones">Suscripciones</option>
+                  <option value="Errores">Errores</option>
+                  <option value="Asistente">Asistente personal</option>
+                </select>
+              </div>
+            <div class="input-group" required="">
+                <span class="input-group-text">Escribe tu necesidad</span>
+                <textarea class="form-control" aria-label="With textarea" name="texto"></textarea>
+              </div>
+              <br>
+              <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02" name="archivos">
+                <label class="input-group-text" for="inputGroupFile02" >Subir</label>
+              </div>
+
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Notificaciones por correo para contacto</label>
+              </div>
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked required="">
+                <label class="form-check-label" for="flexSwitchCheckChecked" name="notcorreo">Acepto <a href="https://josprox.com.mx/terminos-y-condiciones/">términos y condiciones</a></label>
+              </div>
+
+            <button type="submit" class="btn1 btn-primary" name="enviar">Enviar</button>
+          </form>
+    </div>
+    <!--Cierre de formulario-->
+
+          </div>
+        </div>
+      </div>
+
+    <br>
+      <div class="alert alert-danger" role="alert">
+      Por el momento la opción de subir archivos, se encuentra desactivado! 😢 si necesitas pasar archivos, favor de informarnos en el contenedor de texto "Escribe tu necesidad".✔
+      </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/liv.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+    
+</body>
+</html>
