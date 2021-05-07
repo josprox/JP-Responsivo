@@ -1,4 +1,4 @@
-# Radio-JOSS-JP-Responsivo
+# JP-Responsivo
 #Actualización 05/05/21
 
 Dejamos de dar soporte a la versión ray, ahora para poder usar nuestro css necesitas agregar <code> link rel="stylesheet" href="https://dev.josprox.com/css/index.min.css" </code> como se explica a continuación
