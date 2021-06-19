@@ -1,7 +1,7 @@
 # JP-Responsivo
 #Actualización 05/05/21
 
-Dejamos de dar soporte a la versión ray, ahora para poder usar nuestro css necesitas agregar <code> link rel="stylesheet" href="https://dev.josprox.com/css/index.min.css" </code> como se explica a continuación
+Dejamos de dar soporte a la versión ray, ahora para poder usar nuestro css necesitas agregar <code> link rel="stylesheet" href="https://cdn.josprox.com/css/index.css" </code> como se explica a continuación
 
 JOSPROX Responsivo es una librería la cual permite hacer nuevos diseños con HTML 5, se ha tratado en este proyecto que los sitios puedan mejorarse con diseño de manera fácil, entre ello CSS y poco uso de javascript.
 
@@ -12,7 +12,7 @@ Tratamos de usar como base bootstrap, fácil uso y mejor rendimiento, en su cone
 Los códigos son abiertos, puedes ocuparlos pero no se permite su distribución con su supuesta adquisición, no se les pide mencionar ni Bootstrap ni a JOSPROX Responsivo. Puedes ayudar dando tu aportación enviando los códigos con un ejemplo de uso al correo “joss@int.josprox.com”, Recuerda que todos los códigos deben ser responsivos.
 Visita Bootstrap codes para poder crear mas cosas.
 
-Puedes ver la versión "demo" en https://ray.josprox.com.mx/
+Puedes ver la versión "demo" en https://dev.josprox.com/panel
 
 Ahora tambien puedes usar nuestro codigo de manera digital, usando el siguiente codigo en tu head <code> link rel="stylesheet" href="https://dev.josprox.com/css/index.min.css" </code> y si vas a usarlo recuerda que puedes tambien combinar nuestro Frame con los siguientes frames ya antes usados, "Bootstrap" y "https://videojs.com/"
 - 📫 Copyright (c) 2021 de JOSPROX MX/ JOSPROX Internacional (https://josprox.com/  ,  https://josprox.com.mx/) Tales del presente adquisidor (José Luis Melchor Estrada).
