@@ -1,7 +1,7 @@
 # JP-Responsivo
 #Actualización 05/05/21
 
-Dejamos de dar soporte a la versión ray, ahora para poder usar nuestro css necesitas agregar <code> link rel="stylesheet" href="https://cdn.josprox.com/css/index.css" </code> como se explica a continuación
+Dejamos de dar soporte a la versión ray, ahora para poder usar nuestro css necesitas agregar <code> link rel="stylesheet" href="https://cdn.josprox.com/css/index.css" </code> como se explica a continuación, tambien no es completamente obligatorio, pero para su uso 100% funcional, se recomienda porner un script con lo siguiente <code>script src="https://cdn.josprox.com/js/main.min.js"</code>
 
 JOSPROX Responsivo es una librería la cual permite hacer nuevos diseños con HTML 5, se ha tratado en este proyecto que los sitios puedan mejorarse con diseño de manera fácil, entre ello CSS y poco uso de javascript.
 
